@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* all images */
+.img1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  margin-left: 80px;
+}
+.img4 {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 1;
+}
+.img3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  margin-top: 30px;
+}
+.img2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+/* all text */
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+.signupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 400px;
+  height: 631px;
+  border: 1px solid #F8F8F8;
+  box-shadow: -4px 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+.innerContainerContent {
+  width: 350px;
+}
+.innerContainer {
+  background-color: #f5f5f5;
+}
+.title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 80px;
+  text-align: center;
+  color: #555555;
+}
+.signupContent {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+  text-align: center;
+  padding: 40px 0px;
+}
+.label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  color: #555555;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  background: #F8F8F8;
+  border-radius: 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-size: 16px;
+  padding: 0px 10px;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: 2px solid #555555;
+}
+.togglebtn {
+  bottom: 37px;
+  left: 85%;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.btns {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btns .signupBtn {
+  color: #fff
+}
+.btn {
+  width: 100%;
+}
+.signupBtn {
+  background: #555555;
+  border-radius: 2px;
+  width: 100%;
+  height: 48px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #555555;
+}
+.btn .signupBtn {
+  margin: 10px 0px;
+  color: #555555;
+  background-color: #fff;
+}
+.instead {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  color: #555555;
+  margin: 10px 0px;
+  text-decoration: underline;
+}
+.link {
+  color: #555555;
+}
